@@ -22,3 +22,4 @@
 
 Linkler:
 http://www.cnblogs.com/hustskyking/p/xss-snippets.html
+https://github.com/evilcos/xss.swf
