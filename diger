@@ -1,4 +1,4 @@
-https://github.com/musalbas/address-spoofing-poc chrome
+
 
 
 -- MySQL, MSSQL, Oracle, PostgreSQL, SQLite
@@ -15,3 +15,10 @@ https://github.com/musalbas/address-spoofing-poc chrome
 https://downloads.skullsecurity.org/passwords/
 http://garage4hackers.com/showthread.php?t=326 sap
 https://penetrate.io/page/2/ url encoding
+https://github.com/musalbas/address-spoofing-poc chrome
+
+Waf bypass
+X-Originating-IP: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Remote-IP: 127.0.0.1
+X-Remote-Addr: 127.0.0.1
