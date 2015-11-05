@@ -31,3 +31,10 @@ https://penetrate.io/page/2/ url encoding
 https://github.com/musalbas/address-spoofing-poc chrome
 
 
+CSRF TEST :
+
+Remove the csrftoken request variable completely. It may only validate it when it is present in the request.
+Put an invalid csrftoken value, i.e. &csrftoken=asdf. This is the fastest way to test what happens with a valid/invalid token.
+Have the csrftoken request variable present but do not set a value, i.e. &csrftoken=
+Try old csrftoken values that should have expired.
+See if a valid csrftoken for a user is valid for other users.
