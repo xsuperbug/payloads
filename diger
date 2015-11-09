@@ -38,3 +38,11 @@ Put an invalid csrftoken value, i.e. &csrftoken=asdf. This is the fastest way to
 Have the csrftoken request variable present but do not set a value, i.e. &csrftoken=
 Try old csrftoken values that should have expired.
 See if a valid csrftoken for a user is valid for other users.
+
+New XSS vector :
+
+https://respectxss.blogspot.co.uk/2015/11/the-insecurity-of-ezdata.html
+
+The above screen-shot shows that the parenthesis (i.e., ()) have been filtered from the XSS payload which makes the attack vector useless. No worries. ECMAScript 6 (ECMA6) provides a feature called multi-line template string and with the help of it, one can execute JavaScript without parenthesis. The back-tick (``) is used instead of parenthesis for JavaScript code execution. The payload now becomes ...
+
+'-confirm`1`-'
