@@ -4,6 +4,9 @@ X-Forwarded-For: 127.0.0.1
 X-Remote-IP: 127.0.0.1
 X-Remote-Addr: 127.0.0.1
 
+#browser filtre atlatma
+http://www.mbsd.jp/blog/20160407.html
+
 #hello burp
 <img style=display:none src=//burp/favicon.ico onload="7==Math.floor(Math.random()*10)&&alert(1)"> <!-- hello burp sometimes -->
 
