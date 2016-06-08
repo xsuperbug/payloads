@@ -13,6 +13,9 @@ https://github.com/xsuperbug/XSS.png
 #XSSI 
 http://sebastian-lekies.de/leak/
 
+#csrf token xss
+https://www.optiv.com/blog/bypassing-csrf-tokens-via-xss
+
 #ssrf
 http://www.xsses.com/2016/03/ssrf-in-imgur-worth-1600.html
 https://hackerone.com/reports/115978
