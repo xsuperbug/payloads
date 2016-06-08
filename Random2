@@ -4,6 +4,12 @@ X-Forwarded-For: 127.0.0.1
 X-Remote-IP: 127.0.0.1
 X-Remote-Addr: 127.0.0.1
 
+#wafbypass
+1) use <x & jump to event handler
+2) use onxxx=yyy & find number of x it accepts
+3) test them & change tag accordingly
+4) put js
+
 #angularjs security
 https://docs.google.com/presentation/d/1fBwDABfa2RdWxSFwadq8qD7soDIcqGzSvANkm1nlNas/pub?start=false&loop=false&delayms=3000&slide=id.g103580afa1_1_512
 
