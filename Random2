@@ -4,6 +4,9 @@ X-Forwarded-For: 127.0.0.1
 X-Remote-IP: 127.0.0.1
 X-Remote-Addr: 127.0.0.1
 
+#angularjs security
+https://docs.google.com/presentation/d/1fBwDABfa2RdWxSFwadq8qD7soDIcqGzSvANkm1nlNas/pub?start=false&loop=false&delayms=3000&slide=id.g103580afa1_1_512
+
 #XSS mindmap
 https://github.com/xsuperbug/XSS.png
 
