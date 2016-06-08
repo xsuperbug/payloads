@@ -4,6 +4,9 @@ X-Forwarded-For: 127.0.0.1
 X-Remote-IP: 127.0.0.1
 X-Remote-Addr: 127.0.0.1
 
+#Java DeS
+https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet
+
 #browser filtre atlatma
 http://www.mbsd.jp/blog/20160407.html
 
