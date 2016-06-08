@@ -4,6 +4,9 @@ X-Forwarded-For: 127.0.0.1
 X-Remote-IP: 127.0.0.1
 X-Remote-Addr: 127.0.0.1
 
+#XSS mindmap
+https://github.com/xsuperbug/XSS.png
+
 #XSSI 
 http://sebastian-lekies.de/leak/
 
