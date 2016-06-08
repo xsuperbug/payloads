@@ -4,6 +4,9 @@ X-Forwarded-For: 127.0.0.1
 X-Remote-IP: 127.0.0.1
 X-Remote-Addr: 127.0.0.1
 
+#XSSI 
+http://sebastian-lekies.de/leak/
+
 #Java DeS
 https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet
 
