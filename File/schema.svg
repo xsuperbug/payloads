@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   x="0"
+   y="0"
+   width="194"
+   height="200"
+   id="Face">
+  <path
+     d="M 186.11394,98.304237 C 186.62399,134.66870 162.61525,169.70928 128.55578,182.43531 C 95.991320,195.60352 56.276124,187.11517 31.824005,161.93377 C 6.1490073,136.74335 -1.7726986,95.589284 12.895063,62.717752 C 26.131798,30.871489 58.959432,8.6063558 93.435503,8.0498005 C 130.40005,6.5693681 166.62078,30.464084 179.78044,65.055801 C 183.95955,75.607305 186.15088,86.951651 186.11394,98.304237 z "
+     style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+     id="path1352" />
+  <path
+     d="M 77.006599,70.918053 C 77.527726,79.716943 64.712340,84.270466 59.707418,76.889791 C 54.124523,70.591110 60.327827,59.897153 68.519803,61.268419 C 73.235680,61.807597 77.099882,66.152789 77.006599,70.918053 z "
+     style="opacity:1;fill:#cece00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="eye" />
+  <use
+     transform="translate(57.58983,0.496064)"
+     id="eye2"
+     x="0"
+     y="0"
+     width="744.09448"
+     height="1052.3622"
+     xlink:href="#eye" />
+  <path
+     d="M 77.814522,115.89286 C 83.829118,103.68413 89.843712,91.475395 95.858307,79.266663 C 101.87290,91.475397 107.88750,103.68413 113.90210,115.89286 C 101.87291,115.89286 89.843714,115.89286 77.814522,115.89286 z "
+     style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+     id="nose" />
+  <path
+     d="M 145.14207,136.36044 C 124.78121,151.38904 102.90920,149.14419 79.824122,131.65685 C 70.594385,128.53160 54.906902,141.79498 46.843849,136.36044"
+     style="fill:none;stroke:#000000;stroke-width:1.3228360;stroke-opacity:1"
+     id="mouth" />
+   <script type="text/ecmascript">
+   <![CDATA[
+	alert("XSS Vulnerability");
+	alert(document.cookie);
+   ]]>
+  </script>
+</svg>
